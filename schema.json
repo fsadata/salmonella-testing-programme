@@ -1,0 +1,29 @@
+{
+	"fields": [
+		{
+			"name": "YearMonth",
+			"title": "YearMonth",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%Y-%m"
+			}
+		},
+		{
+			"name": "Tested",
+			"title": "Tested",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "Positive",
+			"title": "Positive",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
